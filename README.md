@@ -1,13 +1,13 @@
 Uma lista com informações úteis para análise forense dividido em tópicos:
 
-[Programas Windows] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#programas-windows)                      
-[Programas Linux] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#programasdistros-linux)                   
-[Programas Multiplataformas/Web] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#programas-web--linux--windows)                               
-[TTL] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#ttl)                                                  
-[Hosts] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#hosts)                                              
-[Attrib] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#attrib)                                            
-[UAC] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#alterar-uacuser-account-control)                      
-[Remoção Completa Usuário Linux] (https://gist.github.com/bcamera/b96b0aae1d5b0e51e6de123d0b2167a0#remo%C3%A7%C3%A3o-completa-de-usu%C3%A1rio-linux)
+[Programas Windows] (https://github.com/bcamera/Security/blob/master/README.md#programas-windows)                      
+[Programas Linux] (https://github.com/bcamera/Security/blob/master/README.md#programasdistros-linux)                   
+[Programas Multiplataformas/Web] (https://github.com/bcamera/Security/blob/master/README.md#programas-web--linux--windows)    
+[TTL] (https://github.com/bcamera/Security/blob/master/README.md#ttl)                                                  
+[Hosts] (https://github.com/bcamera/Security/blob/master/README.md#hosts)                                              
+[Attrib] (https://github.com/bcamera/Security/blob/master/README.md#attrib-terminal-windows)                                  
+[UAC] (https://github.com/bcamera/Security/blob/master/README.md#alterar-uacuser-account-control)                      
+[Remoção Completa Usuário Linux] (https://github.com/bcamera/Security/blob/master/README.md#remo%C3%A7%C3%A3o-completa-de-usu%C3%A1rio-linux)
 
 ##Programas Windows
 
