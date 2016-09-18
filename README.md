@@ -109,3 +109,95 @@ Nas políticas de segurança local: Políticas Locais > Opções de Segurança >
 http://www.cyberciti.biz/faq/linux-remove-user-command/
 
 ps:fazer script depois.
+
+###Modificar times de arquivos no Linux de forma anônima
+Fonte (Source) : [ShellHacks] (http://www.shellhacks.com/en/Categories/Penetration)
+Files in Linux have 3 types of timestamps: Access (atime), Modify (mtime) and Change (ctime).
+
+Access (atime) and modification (mtime) timestamps can be easily changed using touch command, but there is no a standard way to set a different change (ctime) timestamp.
+
+As a possible workaround you can set the system time to the ctime you want to impose, then touch the file and then restore the system time.
+
+Use the stat command to see the current file's timestamps :
+
+$ stat file.txt
+  File: ‘file.txt’
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 804h/2052d	Inode: 2501536     Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/     admin)   Gid: ( 1000/     admin)
+
+Access: 2015-02-19 11:43:08.503408793 +0200
+Modify: 2015-02-19 11:43:08.503408793 +0200
+Change: 2015-02-19 11:43:08.503408793 +0200
+
+Difference Between "Access", "Modify" and "Change" Timestamps
+Timestamp 	When it gets updated?
+atime 	Access time gets updated when you open a file or when a file is used for other operations like grep, cat, head and so on.
+mtime 	Modify time gets updated when you whenever update content of a file or save a file.
+ctime 	Change time gets updated when the file attributes are changed, like changing the owner, changing the permission or moving it to another filesystem, but will also be updated when you modify a file.
+Changing a File's "Access" and "Modification" Time
+
+Change a file's access time (atime) :
+
+$ touch -a --date="1988-02-15" file.txt
+$ touch -a --date="1988-02-15 01:00" file.txt
+$ touch -a --date="1988-02-15 01:00:17.547775198 +0300" file.txt
+
+Change a file's modification time (mtime) :
+
+$ touch -m --date="2020-01-20" file.txt
+$ touch -m --date="2020-01-20 23:05" file.txt
+$ touch -m --date="2020-01-20 23:05:43.443117094 +0400" file.txt
+
+Changing a File's "Change" Time
+
+As i have already said there is no a standard solution to fake a change (ctime) timestam.
+
+Nevertheless. it is possible to set the system time to the ctime you want to impose, then touch the file and then rollback the system time.
+
+Modification of a system time may cause an unexpected impact. Use the below commands on your own risk.
+
+Save the current system's date and time in the variable NOW :
+
+$ NOW=$(date)
+
+Set the fake date and time (requires root) :
+
+$ date --set "2030-08-15 21:30:11"
+
+Touch the file to fake the all timestamps :
+
+$ touch file.txt
+
+Rollback the date and time (requires root) :
+
+$ date --set "$NOW"
+
+To speedup modification and reduce the possible impact, execute the above commands as follows :
+
+$ NOW=$(date) && date -s "2030-08-15 21:30:11" && touch file.txt && date -s "$NOW"
+
+Stay Stealthy ;)
+
+To stay stealthy don't forget to unset the variable, clear logs and history.
+
+Unset the variable NOW :
+
+$ unset NOW
+
+Remove the information about changed time from /var/log/messages (requires root) :
+
+Feb 24 06:32:46 centos7 systemd: Time has been changed
+Aug 15 14:30:11 centos7 systemd: Time has been changed
+
+Clear the last login history (requires root) :
+
+$ echo > /var/log/wtmp
+$ echo > /var/log/btmp
+$ echo > /var/log/lastlog
+
+Read more : How To Clear or Remove Last Login History in Linux
+
+Clear the history of the current session :
+
+$ history -r
