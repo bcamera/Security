@@ -8,6 +8,7 @@ Uma lista com informações úteis para análise forense dividido em tópicos:
 [Attrib] (https://github.com/bcamera/Security/blob/master/README.md#attrib-terminal-windows)                                  
 [UAC] (https://github.com/bcamera/Security/blob/master/README.md#alterar-uacuser-account-control)                      
 [Remoção Completa Usuário Linux] (https://github.com/bcamera/Security/blob/master/README.md#remo%C3%A7%C3%A3o-completa-de-usu%C3%A1rio-linux)
+[Modificar times de arquivos no Linux] (https://github.com/bcamera/Security#modificar-times-de-arquivos-no-linux-de-forma-an%C3%B4nima)
 
 ##Programas Windows
 
