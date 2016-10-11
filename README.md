@@ -203,3 +203,19 @@ Read more : How To Clear or Remove Last Login History in Linux
 Clear the history of the current session :
 
 $ history -r
+
+
+
+###Inserir senha criptografada no grub (Debian)
+Como root executar os seguinte comandos:
+$ grub-mkpasswd-pbkdf2
+$ vim /etc/grub.d/00_header
+Ao final do arquivo:
+São 4 linhas:
+
+cat << EOF
+set superusers="usuario"
+password_pbkdf2 usuario grub.pbkdf2.sha512.10000.706A070CD168B759801D2790C6 D48D5C3842B9165CF08600918CD9A496B6BFF9CD9BB8F7C99DEC431DF3AD0D466709ECE041F C00C5C1B58F00A879E0322959B7.6FC5058001DFFC1CD6B35F9A5DA66ED6C8745E4999E064E 712C9BF302E8F2547CD0B591C33A340F229FD79D2252E23CFC41410C9A3300537E54C9CE6F7008100
+EOF
+
+$ update-grub
