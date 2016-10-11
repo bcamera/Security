@@ -208,11 +208,11 @@ $ history -r
 
 
 ###Inserir senha criptografada no grub (Debian)
-Como root executar os seguinte comandos:
-$ grub-mkpasswd-pbkdf2
-$ vim /etc/grub.d/00_header
-Ao final do arquivo:
-São 4 linhas:
+Como root executar os seguinte comandos:                                                                                        
+$ grub-mkpasswd-pbkdf2                                                                                                          
+$ vim /etc/grub.d/00_header                                                                                                     
+Ao final do arquivo:                                                                                                            
+São 4 linhas:                                                                                                                   
 
 cat << EOF
 set superusers="usuario"
