@@ -2,7 +2,8 @@ Uma lista com informações úteis para análise forense dividido em tópicos:
 
 [Programas Windows] (https://github.com/bcamera/Security/blob/master/README.md#programas-windows)                      
 [Programas Linux] (https://github.com/bcamera/Security/blob/master/README.md#programasdistros-linux)                   
-[Programas Multiplataformas/Web] (https://github.com/bcamera/Security/blob/master/README.md#programas-web--linux--windows)    
+[Programas Multiplataformas/Web] (https://github.com/bcamera/Security/blob/master/README.md#programas-web--linux--windows)
+[Programas Android] ()
 [TTL] (https://github.com/bcamera/Security/blob/master/README.md#ttl)                                                  
 [Hosts] (https://github.com/bcamera/Security/blob/master/README.md#hosts)                                              
 [Attrib] (https://github.com/bcamera/Security/blob/master/README.md#attrib-terminal-windows)                                  
@@ -22,6 +23,7 @@ Fciv | Checksum | https://www.microsoft.com/en-us/download/details.aspx?id=11533
 usbReadOnly | Autorun/Leitura/Escrita Mídias | https://github.com/bcamera/Meus-Scripts/blob/master/Windows/usbReadOnly.bat
 Eraser | Deletar e Sobrescrever dados |http://eraser.heidi.ie/ 
 BlueScreenView | Visualizar Dump | http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks
+WhoCrashed | Visualizar Dump | http://www.resplendence.com/whocrashed
   
 
 ##Programas/Distros Linux
@@ -57,6 +59,8 @@ Wireshark | Sniffing  | https://www.wireshark.org/
 Autopsy | Recuperação de Dados | http://www.autopsy.com/
 Maltego | Banco de dados com mining data | http://www.paterva.com/web7/downloads.php  
 Redbot | Extração de informações de um site | https://redbot.org
+
+###Programas Android
 
 ###TTL
 
