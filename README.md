@@ -24,6 +24,8 @@ usbReadOnly | Autorun/Leitura/Escrita Mídias | https://github.com/bcamera/Meus-
 Eraser | Deletar e Sobrescrever dados |http://eraser.heidi.ie/ 
 BlueScreenView | Visualizar Dump | http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks
 WhoCrashed | Visualizar Dump | http://www.resplendence.com/whocrashed
+Comodo Program Manager | Monitor de instalação de programas | https://www.comodo.com/home/support-maintenance/programs-manager.php
+Glasswire | Monitor de Rede | https://www.glasswire.com/download/
   
 
 ##Programas/Distros Linux
@@ -61,6 +63,13 @@ Maltego | Banco de dados com mining data | http://www.paterva.com/web7/downloads
 Redbot | Extração de informações de um site | https://redbot.org
 
 ###Programas Android
+
+Programa | Função | Link
+----------- | ----------- | -----------
+Iptools | Scan de Rede e portas | https://play.google.com/store/apps/details?id=com.ddm.iptools
+Network Scanner | Scan de Rede e portas | https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner
+Network Mapper | Nmap | https://play.google.com/store/apps/details?id=org.kost.nmap.android.networkmapper
+Opera VPN | VPN | https://play.google.com/store/apps/details?id=com.opera.vpn
 
 ###TTL
 
