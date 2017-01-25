@@ -2,8 +2,8 @@ Uma lista com informações úteis para análise forense dividido em tópicos:
 
 [Programas Windows] (https://github.com/bcamera/Security/blob/master/README.md#programas-windows)                      
 [Programas Linux] (https://github.com/bcamera/Security/blob/master/README.md#programasdistros-linux)                   
-[Programas Multiplataformas/Web] (https://github.com/bcamera/Security/blob/master/README.md#programas-web--linux--windows)
-[Programas Android] ()
+[Programas Multiplataformas/Web] (https://github.com/bcamera/Security/blob/master/README.md#programas-web--linux--windows)      
+[Programas Android] (https://github.com/bcamera/Security/blob/master/README.md#programas-android)                               
 [TTL] (https://github.com/bcamera/Security/blob/master/README.md#ttl)                                                  
 [Hosts] (https://github.com/bcamera/Security/blob/master/README.md#hosts)                                              
 [Attrib] (https://github.com/bcamera/Security/blob/master/README.md#attrib-terminal-windows)                                  
