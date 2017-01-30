@@ -70,6 +70,7 @@ Iptools | Scan de Rede e portas | https://play.google.com/store/apps/details?id=
 Network Scanner | Scan de Rede e portas | https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner
 Network Mapper | Nmap | https://play.google.com/store/apps/details?id=org.kost.nmap.android.networkmapper
 Opera VPN | VPN | https://play.google.com/store/apps/details?id=com.opera.vpn
+Diversos | Diversos | https://securityinabox.org/en/guide/basic-security/android/
 
 ###TTL
 
