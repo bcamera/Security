@@ -13,7 +13,7 @@ Uma lista com informações úteis para análise forense dividido em tópicos:
 [Curiosidades sobre linha de comando] (https://github.com/jlevy/the-art-of-command-line/blob/master/README-pt.md)               
 [Senha Grub] (https://github.com/bcamera/Security/blob/master/README.md#inserir-senha-criptografada-no-grub-debian)
 
-##Programas Windows
+## Programas Windows
 
 Alguns programas para windows que ajudam a análise forense ou ao combate á essa mesma análise.
 
@@ -28,7 +28,7 @@ Comodo Program Manager | Monitor de instalação de programas | https://www.como
 Glasswire | Monitor de Rede | https://www.glasswire.com/download/
   
 
-##Programas/Distros Linux
+## Programas/Distros Linux
 
 Alguns programas e distribuições linux que ajudam a análise forense ou ao combate á essa mesma análise.
 
@@ -50,7 +50,7 @@ Dnsenum | Scan de DNS | https://code.google.com/archive/p/dnsenum/downloads
 
 
 
-##Programas WEB / Linux / Windows
+## Programas WEB / Linux / Windows
 
 Alguns programas multiplataforma e distribuições linux que ajudam a análise forense.
 
@@ -62,7 +62,7 @@ Autopsy | Recuperação de Dados | http://www.autopsy.com/
 Maltego | Banco de dados com mining data | http://www.paterva.com/web7/downloads.php  
 Redbot | Extração de informações de um site | https://redbot.org
 
-###Programas Android
+### Programas Android
 
 Programa | Função | Link
 ----------- | ----------- | -----------
@@ -72,7 +72,7 @@ Network Mapper | Nmap | https://play.google.com/store/apps/details?id=org.kost.n
 Opera VPN | VPN | https://play.google.com/store/apps/details?id=com.opera.vpn
 Diversos | Diversos | https://securityinabox.org/en/guide/basic-security/android/
 
-###TTL
+### TTL
 
 Campo presente em cabeçalhos de diferentes protocolos que informam o tempo de vida (saltos) que um pacote pode permanecer ativo antes de ser descartado, aqui vemos que baseado no ttl podemos saber com qual sistema estamos lidando e como burlar isso.
 
@@ -87,7 +87,7 @@ Windows | 128
 Ignorar todos os pedidos icmp: echo "1" > /prop/sys/net/ipv4/icmp_echo_ignore_all                                             
 Alterar a resposta ttl: echo "128" > /prop/sys/net/ipv4/ip_default_ttl
 
-###Hosts
+### Hosts
 
 Um dns local que direciona o endereço para um ip que for cadastrado, podendo ser usado para pharming.
 
@@ -97,7 +97,7 @@ Linux | /etc/hosts
 Mac OS | /etc/hosts
 Windows | %WINDIR%\system32\drivers\etc\hosts
 
-###Attrib (Terminal Windows)
+### Attrib (Terminal Windows)
 
 Parâmetro | Função
 ------------ | -------------
@@ -113,7 +113,7 @@ H | Atributo de arquivo oculto
 Exemplo usado para forçar exibir todos os arquivos do diretório:  attrib /s /d -r -s –h
 
 
-###Alterar UAC(User Account Control)
+### Alterar UAC(User Account Control)
 
 No Registro: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System no EnableLUA:
 UAC Enabled: 1
@@ -121,13 +121,13 @@ UAC Disabled: 0
 
 Nas políticas de segurança local: Políticas Locais > Opções de Segurança > Controle de Conta...
 
-###Remoção Completa de Usuário Linux
+### Remoção Completa de Usuário Linux
 
 http://www.cyberciti.biz/faq/linux-remove-user-command/
 
 ps:fazer script depois.
 
-###Modificar times de arquivos no Linux de forma anônima
+### Modificar times de arquivos no Linux de forma anônima
 Fonte (Source) : [ShellHacks] (http://www.shellhacks.com/en/Categories/Penetration)
 Files in Linux have 3 types of timestamps: Access (atime), Modify (mtime) and Change (ctime).
 
@@ -221,7 +221,7 @@ $ history -r
 
 
 
-###Inserir senha criptografada no grub (Debian)
+### Inserir senha criptografada no grub (Debian)
 Como root executar os seguinte comandos:                                                                                        
 $ grub-mkpasswd-pbkdf2                                                                                                          
 $ vim /etc/grub.d/00_header                                                                                                     
