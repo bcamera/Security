@@ -101,8 +101,8 @@ Windows | %WINDIR%\system32\drivers\etc\hosts
 
 Parâmetro | Função
 ------------ | -------------
-+ | Acrescenta um atributo
-- | Retira um atributo
+`+` | Acrescenta um atributo
+`-` | Retira um atributo
 R | Atributo somente leitura
 A | Atributo de arquivo morto
 S | Atributo de arquivo do sistema
