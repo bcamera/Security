@@ -21,11 +21,14 @@ Programa | Função | Link
 ------------ | ------------- | -------------
 Fciv | Checksum | https://www.microsoft.com/en-us/download/details.aspx?id=11533
 usbReadOnly | Autorun/Leitura/Escrita Mídias | https://github.com/bcamera/Meus-Scripts/blob/master/Windows/usbReadOnly.bat
+Thumbscrew | Leitura/Escrita USB | http://www.irongeek.com/i.php?page=security/thumbscrew-software-usb-write-blocker
 Eraser | Deletar e Sobrescrever dados |http://eraser.heidi.ie/ 
 BlueScreenView | Visualizar Dump | http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks
 WhoCrashed | Visualizar Dump | http://www.resplendence.com/whocrashed
 Comodo Program Manager | Monitor de instalação de programas | https://www.comodo.com/home/support-maintenance/programs-manager.php
 Glasswire | Monitor de Rede | https://www.glasswire.com/download/
+HxD | Editor Hexadecimal(hash) | https://mh-nexus.de/en/hxd/
+FTK Imager | Cópia de Dados(comercial) | http://accessdata.com/product-download/ftk-imager-version-3.2.0
   
 
 ## Programas/Distros Linux
