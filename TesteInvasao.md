@@ -9,11 +9,17 @@ https://www.webscraper.io/
 https://tools.kali.org/exploitation-tools/beef-xss                                                                                 
 http://www.dvwa.co.uk/                                                                                                             
 https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project                                                                     
-https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project
+https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project                                                                          
+http://testphp.vulnweb.com/
 
 
 ## Material de Apoio
 Livro: https://pt.scribd.com/doc/73586437/Teste-de-Invasao-de-Aplicacoes-Web#fullscreen&from_embed                                  
 Slides:                                                                                                                           
 Práticas:                                                                                                                         
+
+## Links de relatórios de ataques, vulnerabilidades etc:
+https://www.cvedetails.com/
+https://www.exploit-db.com/
+
 
