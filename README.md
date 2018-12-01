@@ -11,7 +11,8 @@ Uma lista com informações úteis para análise forense dividido em tópicos:
 [Remoção Completa Usuário Linux] (https://github.com/bcamera/Security/blob/master/README.md#remo%C3%A7%C3%A3o-completa-de-usu%C3%A1rio-linux)                   
 [Modificar times de arquivos no Linux] (https://github.com/bcamera/Security#modificar-times-de-arquivos-no-linux-de-forma-an%C3%B4nima)                   
 [Curiosidades sobre linha de comando] (https://github.com/jlevy/the-art-of-command-line/blob/master/README-pt.md)               
-[Senha Grub] (https://github.com/bcamera/Security/blob/master/README.md#inserir-senha-criptografada-no-grub-debian)
+[Senha Grub] (https://github.com/bcamera/Security/blob/master/README.md#inserir-senha-criptografada-no-grub-debian)              
+[Corrigir Permissões Windows] (https://github.com/bcamera/Security/blob/master/README.md#corrigir-permiss%C3%B5es-windows)
 
 ## Programas Windows
 
