@@ -237,3 +237,9 @@ password_pbkdf2 usuario grub.pbkdf2.sha512.10000.706A070CD168B759801D2790C6 D48D
 EOF
 
 $ update-grub
+
+
+### Corrigir Permissões Windows
+Para resetar as permissões de uma pasta e subdiretórios:
+ Ir para a pasta desejada e aplicar o seguinte comando: ICACLS * /T /Q /C /RESET
+ Para setar a permissão para o usuário atual takeown /R /F NomeDaPasta
